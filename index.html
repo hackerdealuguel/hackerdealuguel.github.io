@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacker De Aluguel</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .image-container {
+            flex: 1;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .center-button {
+            position: absolute;
+            bottom: 35%;
+            background-color: #0000;
+            color: #0000;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 19px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .center-button:hover {
+            background-color: #ff6347;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            width: 100%;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="1.jpg" alt="Imagem central">
+        <button class="center-button" onclick="window.location.href='hack.html'">Clique Aqui</button>
+    </div>
+    <footer>
+        © 2025 Hacker de aluguel Todos os direitos <br> reservados.
+    </footer>
+</body>
+</html>
